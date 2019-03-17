@@ -1,0 +1,25 @@
+<hr>
+<span>
+   <div>
+
+      {% if author.image %}
+         <img src="{{author.image}}" class="author-img">
+      {% endif %}
+      <div>
+         <h3> {{author.name}} &nbsp;
+
+           {% if author.twitter %}
+              <a href="{{author.twitter}}" <i class="fa fa-twitter fa"></i></a>
+            {% endif %}
+          {% if author.github %}
+            <a href="{{ author.github }}" ><i class="fa fa-github fa"></i></a>
+            {% endif %}
+          {% if author.email %}
+            <a href="{{ author.email }}" ><i class="fa fa-envelope fa"></i></a>
+            {% endif %}
+          </h3>
+      </div>
+   </div>
+   {{ author.bio }}
+</span>
+<br>

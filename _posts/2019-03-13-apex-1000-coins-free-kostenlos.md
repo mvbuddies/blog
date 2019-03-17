@@ -1,8 +1,10 @@
 ---
 layout: post
 title:  "Erhalte KOSTENLOS 1000 Coins in Apex Legends"
-categories: Gaming
+categories: [Gaming, Apex Legends, Free, kostenlos]
 img: apex.jpg
+description: Mit einem kleinen Bug, kann man sich 1000 Coinst in Apex Legends holen
+author: j0nas500
 ---
 
 
@@ -30,5 +32,5 @@ Aktuell ist es möglich durch eine Änderung der Startoption sich 1000 Coins in 
 
 
 Quellen:  
-[https://www.youtube.com/watch?v=pD4OpKsQD5I](https://www.youtube.com/watch?v=pD4OpKsQD5I)
+[https://www.youtube.com/watch?v=pD4OpKsQD5I](https://www.youtube.com/watch?v=pD4OpKsQD5I)  
 [https://teletype.in/@freebie_steam/r1swKIUvN](https://www.youtube.com/watch?v=pD4OpKsQD5I)

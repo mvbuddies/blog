@@ -6,13 +6,17 @@
             {% endif %}
 
             <div class="col-md-4 text-center mt25" >
+            <a class="theme" onclick="theme()">Dark/Light</a>
+            </div>
+
+            <div class="col-md-4 text-center mt25" >
                 {% if site.built-by %}
                 <a target="_blank" href="http://webjeda.com"><img src="https://img.shields.io/badge/Built%20by-webjeda-blue.svg" alt="{{site.built-by}}"></a>
                 {% endif %}
             </div>
             <div class="col-md-4 text-center mt25">
                {% if site.facebook %}
-                <a target="_blank" href="{{site.facebook}}"><li class="social facebook"><i class="fa fa-facebook-square"></i></li></a> 
+                <a target="_blank" href="{{site.facebook}}"><li class="social facebook"><i class="fa fa-facebook-square"></i></li></a>
                 {% endif %}
                {% if site.quora %}
                 <a target="_blank" href="{{site.quora}}"><li class="social quora"><i class="fa fa-quora"></i></li></a>
@@ -28,6 +32,6 @@
                 {% endif %}
             </div>
 
-        </div> 
+        </div>
     </div>
 </footer>

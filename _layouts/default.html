@@ -1,15 +1,42 @@
 ---
 layout: compress
---- 
+---
 
 <!DOCTYPE html>
 <html>
 
   {% include head.html %}
+  <!-- Ladeleiste Style defined first. Copy this to a css style sheet or to the head section -->
+  <style>
+  .my-class .bar {
+  background:#f04c78;
+  }
+  </style>
+
+  <!-- Leseleiste Style defined first. Copy this to a css style sheet or to the head section -->
+<style>
+.progress-bar {
+    background: linear-gradient(to right, lime var(--scroll), transparent 0);
+    background-repeat: no-repeat;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 4px;
+    z-index: 1;
+}
+</style>
 
   <body>
 
     {% include header.html %}
+
+    <!-- This is the bar which shows loading percentage -->
+    <div class="nanobar my-class" id="my-id" style="position: fixed;">
+    <div class="bar"></div>
+    </div>
+    <!-- This is the bar which shows scroll percentage -->
+    <div class="progress-bar"></div>
 
     <div class="container">
       <div class="wrapper">
@@ -18,10 +45,39 @@ layout: compress
     </div>
 
     {% include footer.html %}
-    
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="{{site.baseurl}}/js/bootstrap.min.js"></script>
+  <script src="{{site.baseurl}}/js/nanobar.js"></script>
+
+  <!-- Script used to generate --loading variable with current loading percentage value -->
+  <script>
+    var options = {
+	      classname: 'my-class',
+      id: 'my-id'
+    };
+    var nanobar = new Nanobar( options );
+    nanobar.go( 30 );
+    nanobar.go( 76 );
+    nanobar.go(100);
+  </script>
+
+  <!-- Script used to generate --scroll variable with current scroll percentage value -->
+  <script>
+  var element = document.documentElement,
+    body = document.body,
+    scrollTop = 'scrollTop',
+    scrollHeight = 'scrollHeight',
+    progress = document.querySelector('.progress-bar'),
+    scroll;
+
+  document.addEventListener('scroll', function() {
+    scroll = (element[scrollTop]||body[scrollTop]) / ((element[scrollHeight]||body[scrollHeight]) - element.clientHeight) * 100;
+    progress.style.setProperty('--scroll', scroll + '%');
+  });
+  </script>
+
  {% if site.analytics %}{% include analytics.html %}{% endif %}
   </body>
 

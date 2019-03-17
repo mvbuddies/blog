@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Elements"
-categories: jekyll update
+categories: [jekyll update, two]
 img: image-4.png
 published: false
 ---

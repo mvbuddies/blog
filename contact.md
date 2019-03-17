@@ -8,10 +8,11 @@ permalink: /contact/
 <form class="wj-contact" action="https://formspree.io/{{site.email}}" method="POST">
     <input type="text" name="email" placeholder="Email Address">
     <textarea type="text" name="content" rows="10" placeholder="Message"></textarea>
-    <input type="hidden" name="_next" value="<REDIRECTION LINK> ">
+    <input type="hidden" name="_next" value="succes">
     <input type="hidden" name="_subject" value="New Contact Form Submission">
     <input type="text" name="_gotcha" style="display:none">
-    <input type="submit" value="Submit">
+    <input type="submit" value="Abschicken">
+
 </form>
 
 <style>
@@ -41,3 +42,9 @@ form.wj-contact input[type="submit"] {
     height: auto;
 }
 </style>
+
+
+
+<div class="alert alert-dismissible alert-info">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  <p><strong>Beim Abschicken werden Sie auf <a href="https://formspree.io/" class="alert-link">https://formspree.io/</a> weitergeleitet.
