@@ -28,8 +28,13 @@
                 <a target="_blank" href="{{site.github}}"><li class="social github"><i class="fa fa-github-square"></i></li></a>
                 {% endif %}
                {% if site.email %}
-                <a target="_blank" href="mailto:{{site.email}}"><li class="social email"><i class="fa fa-envelope"></i></li></a>
+                <a target="_blank" href="mailto:{{site.email | encode_email}}"><li class="social email"><i class="fa fa-envelope"></i></li></a>
                 {% endif %}
+            </div>
+
+            <div class="col-md-4 text-center mt25" >
+                <br>
+                <a target="_blank" href="https://mvbuddies.de/datenschutzerklaerung.html">Impressum/Datenschutzerklärung</a>
             </div>
 
         </div>
