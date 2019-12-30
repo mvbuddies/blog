@@ -1,0 +1,20 @@
+I"�<p>Ab sofort seht ihr alle Nachrichten die im Chat-Kanal “#buchstabensalat” verschickt werden, auf jeder Website um immer mit der Community connected zu sein. In diesem Post erläutere ich kurz das Feature und zeige euch wie ich es eingerichtet habe.</p>
+
+<p>Wie Du vielleicht schon mitbekommen hast befindet sich unten rechts das Logo von Discord während dadrüber, wenn Nachrichten verschickt werden, diese eingeblendet werden. Auf das Discord Logo draufgeklickt, seht ihr den ganzen Chat und könnt zwischen diese Switchen.<br />
+<img src="../images/dsc-website1.png" alt="enter image description here" /></p>
+
+<p>Dazu habe ich <a href="https://about.widgetbot.io/">widgetbot.io</a> verwendet. Ich habe, weil die Webseites von den offizielen Bots down sind, den Bot von <a href="https://deploys.io/docs/disweb/">DisWeb</a> genommen. Es gebe auch die Möglichkeit, den Bot selbst zu hosten da es <a href="https://github.com/fluidsonic/widgetbot">OpenSource</a> ist. Werde ich auch machen falls der Bot mal nicht mehr funktionieren sollte.</p>
+
+<p>Nachdem man den Bot also auf seinen Server eingeladen hat, geht es jetzt an die Webseite. Um es so wie bei uns zu haben muss dieser Code-Snippet kurz vor dem <code class="highlighter-rouge">&lt;/head&gt;</code> Tag sein:</p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">src</span><span class="o">=</span><span class="dl">"</span><span class="s2">https://cdn.jsdelivr.net/npm/@widgetbot/crate@3</span><span class="dl">"</span> <span class="k">async</span> <span class="nx">defer</span><span class="o">&gt;</span>
+  <span class="kd">const</span> <span class="nx">button</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Crate</span><span class="p">({</span>
+    <span class="na">server</span><span class="p">:</span> <span class="dl">'</span><span class="s1">299881420891881473</span><span class="dl">'</span><span class="p">,</span>
+    <span class="na">channel</span><span class="p">:</span> <span class="dl">'</span><span class="s1">355719584830980096</span><span class="dl">'</span><span class="p">,</span>
+    <span class="na">shard</span><span class="p">:</span> <span class="dl">'</span><span class="s1">https://disweb.deploys.io</span><span class="dl">'</span>
+  <span class="p">})</span>
+<span class="o">&lt;</span><span class="sr">/script</span><span class="err">&gt;
+</span></code></pre></div></div>
+<p>Die Variabeln die verändert werden müssen sind einmal der <code class="highlighter-rouge">server</code> mit Deiner ServerID, der <code class="highlighter-rouge">channel</code> mit der ChannelID, von dem Chat der angezeigt werden soll. Und dann noch der <code class="highlighter-rouge">shard</code> Dies sollte der zum Bot gehörendem <code class="highlighter-rouge">shard</code> sein. Also wenn Du den selben Bot verwendest wie wir, dann kannst du den <code class="highlighter-rouge">shard</code> so lassen, sonst musst du einen anderen verwenden. Und das wars!</p>
+
+<p>Willst du den Discord Chat anders einbetten, beispielsweise den kompletten Chat direkt anzeigen, dann sieh dir gerne auch noch diese Beispiele <a href="https://docs.widgetbot.io/embed/crate/examples/">hier</a> an.</p>
+:ET

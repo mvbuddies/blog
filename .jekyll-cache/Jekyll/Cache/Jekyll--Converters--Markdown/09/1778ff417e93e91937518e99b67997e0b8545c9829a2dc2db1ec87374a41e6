@@ -1,0 +1,28 @@
+I":<p>Aktuell ist es möglich durch eine Änderung der Startoption sich 1000 Coins in Apex Legends zu ergattern. Was Du dafür tun musst, hier nur ganz kurz und knapp.</p>
+
+<ol>
+  <li>Öffne Origin</li>
+  <li>Gehe zum Spiel Apex Legends</li>
+  <li>Klicke auf das Zahnrad (Einstellung)<br />
+<img src="https://jonas.mvbuddies.de/blog/images/apex1.PNG" alt="enter image description here" /></li>
+  <li>Wähle die “Spiel-Eigenschaften”<br />
+<img src="https://jonas.mvbuddies.de/blog/images/apex2.PNG" alt="enter image description here" /></li>
+  <li>Klicke auf den “Erweiterte Starteinstellungen” Tab</li>
+  <li>Gebe als “Befehlszeilenargumente” dies ein: <code class="highlighter-rouge">+debug_force_EAAccess 1</code><br />
+<img src="https://jonas.mvbuddies.de/blog/images/apex3.PNG" alt="enter image description here" /></li>
+  <li>Klicke auf “Speichern” und starte das Spiel.</li>
+</ol>
+
+<div class="alert alert-dismissible alert-warning">
+  <h4>Hinweis!</h4>
+  <p>Nach dem Start gebt so schnell wie möglich die Münzen aus,
+  (Ich empfehle es für Lootboxen auszugeben) da es gefixed werden könnte.
+  Nach dem Du die Coins ausgegeben hast und die Lootboxen geöffnet hast,
+  schließe das Game und entferne die StartOperation. Starte das Game erneut.
+  Alles ist wieder beim Alten und Deine gekauften Gegenstände bleiben erhalten.</p>
+</div>
+
+<p>Quellen:<br />
+<a href="https://www.youtube.com/watch?v=pD4OpKsQD5I">https://www.youtube.com/watch?v=pD4OpKsQD5I</a><br />
+<a href="https://www.youtube.com/watch?v=pD4OpKsQD5I">https://teletype.in/@freebie_steam/r1swKIUvN</a></p>
+:ET

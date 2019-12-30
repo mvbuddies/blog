@@ -10,7 +10,7 @@ author: j0nas500
 
 Ab sofort seht ihr alle Nachrichten die im Chat-Kanal "#buchstabensalat" verschickt werden, auf jeder Website um immer mit der Community connected zu sein. In diesem Post erläutere ich kurz das Feature und zeige euch wie ich es eingerichtet habe.
 
-Wie Du vielleicht schon mitbekommen hast befindet sich unten rechts das Logo von Discord während dadrüber, wenn Nachrichten verschickt werden, diese eingeblendet werden. Auf das Discord Logo draufgeklickt, seht ihr den ganzen Chat und könnt zwischen diese Switchen.
+Wie Du vielleicht schon mitbekommen hast befindet sich unten rechts das Logo von Discord während dadrüber, wenn Nachrichten verschickt werden, diese eingeblendet werden. Auf das Discord Logo draufgeklickt, seht ihr den ganzen Chat und könnt zwischen diese Switchen.  
 ![enter image description here](../images/dsc-website1.png)
 
 Dazu habe ich [widgetbot.io](https://about.widgetbot.io/) verwendet. Ich habe, weil die Webseites von den offizielen Bots down sind, den Bot von [DisWeb](https://deploys.io/docs/disweb/) genommen. Es gebe auch die Möglichkeit, den Bot selbst zu hosten da es [OpenSource](https://github.com/fluidsonic/widgetbot) ist. Werde ich auch machen falls der Bot mal nicht mehr funktionieren sollte.
