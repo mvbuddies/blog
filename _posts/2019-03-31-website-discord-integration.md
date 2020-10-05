@@ -5,6 +5,7 @@ categories: [Discord, Chat, Bot]
 img: dsc-website.png
 description: In diesem Post erläutere ich kurz das Feature und zeige euch wie ich es eingerichtet habe.
 author: j0nas500
+published: false
 ---
 
 
