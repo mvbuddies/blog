@@ -62,7 +62,7 @@ Auf der Seite gibt's du unten die "Client ID" ein, die du bei deiner Application
 
 ![image-20201005131649552](/images/amongus/image-20201005131649552.png)
 
-Auf den Link geklickt fragt Discord auf welchem Server du den Bot haben willst. Nach der Auswahl ist dein Bot auf deinem Discord drauf. Zwar noch Offline, aber das wollen wir jetzt angehen. Schau dafür bei [Option 2](#Option 2 - Bot auf dem PC selber hosten) rein.
+Auf den Link geklickt fragt Discord auf welchem Server du den Bot haben willst. Nach der Auswahl ist dein Bot auf deinem Discord drauf. Zwar noch Offline, aber das wollen wir jetzt angehen. Schau dafür bei [Option 2](#option-2---bot-auf-dem-pc-selber-hosten) rein.
 
 
 
