@@ -28,7 +28,7 @@ Ihr könnt nach dem Tutorial die Option nachträglich wieder deaktivieren.
 
 **Dein Discord Server benötigt 25 freie Emoji-Slots, damit der Bot einwandfrei funktionieren kann.**
 
-Gehe nun zu [Option 1](#option 1 - Bot einladen), wenn du den Bot nun einladen möchtest. Schau dir sonst noch die [Voraussetzung für Option 2](#für option 2) an, wenn du den Bot selber hosten willst.
+Gehe nun zu [Option 1](#option-1---bot-einladen), wenn du den Bot nun einladen möchtest. Schau dir sonst noch die [Voraussetzung für Option 2](#für-option-2) an, wenn du den Bot selber hosten willst.
 
 
 
@@ -70,7 +70,7 @@ Auf den Link geklickt fragt Discord auf welchem Server du den Bot haben willst. 
 
 ### Bot einladen
 
-Lade den Discord Bot ein: https://discord.com/oauth2/authorize?client_id=762435324953231440&scope=bot&permissions=8
+Lade den Discord Bot ein: [https://discord.com/oauth2/authorize?client_id=762435324953231440&scope=bot&permissions=8](https://discord.com/oauth2/authorize?client_id=762435324953231440&scope=bot&permissions=8)
 
 **Hinweis: Der Bot könnte Offline sein. Denn der Bot fährt automatisch nach 30min Inaktivität herunter.**
 
