@@ -2,7 +2,7 @@
 layout: post
 title:  "Wie nutzt man den Among Us Auto Mute Discord Bot?"
 categories: [Gaming, Apex Legends, Free, kostenlos]
-img: amongus/thumbnail.png
+img: amongus/thumbnail.jpg
 description: Erfahre, wie du den Among Us Discord Bot nutzt und sogar selber hosten kannst, damit deine Mitspieler auf Discord automatisch stummgeschaltet werden.
 author: j0nas500
 ---
