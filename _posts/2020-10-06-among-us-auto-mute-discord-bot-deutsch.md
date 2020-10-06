@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Wie nutzt man den Among Us Auto Mute Discord Bot?"
-categories: [Gaming, Apex Legends, Free, kostenlos]
+categories: [Gaming, Among Us, Discord Bot, mute, automute]
 img: amongus/thumbnail.jpg
 description: Erfahre, wie du den Among Us Discord Bot nutzt und sogar selber hosten kannst, damit deine Mitspieler auf Discord automatisch stummgeschaltet werden.
 author: j0nas500
@@ -96,7 +96,7 @@ Wenn du alles richtig gemacht hast müsste dein Ordner nun folgendermaßen ausse
 
 Starte nun Among Us und erstelle eine Lobby. Danach starte die `AmongUsCapture-x64.exe`
 
-Spätestens jetzt sollte auch der Among Us Discord Bot, den du eingeladen hast Online sein. Betrete also, wenn noch nicht getan einen Sprachkanal und gebe in einen Textkanal `.au new` ein. Du solltest dann folgende Rückmeldung vom Discord erhalten haben:
+Spätestens jetzt sollte auch der Among Us Discord Bot, den du eingeladen hast Online sein. Betrete also, wenn noch nicht getan, einen Sprachkanal und gebe in einen Textkanal `.au new` ein. Du solltest dann folgende Rückmeldung vom Discord erhalten haben:
 
 ![image-20201005134231915](/images/amongus/image-20201005134231915.png)
 
@@ -116,11 +116,11 @@ Du bist fertig. Jetzt müssen deine Mitspieler nur noch mit der Farbe reagieren 
 
 Dein Discord Bot ist noch Offline. Das wollen wir jetzt angehen. Damit der Bot funktioniert, benötigst du einmal die `AmongUsCapture-x64.exe`, die `AmongUsDiscord.exe` und eine Text Datei namens `final.txt`. 
 
-Diese drei Dateien müssen alle in einem Ordner sein, daher erstelle dir dafür erstmal einen Ordner und speicherst dort die `AmongUsCapture-x64.exe` und die `AmongUsDiscord.exe` und erstellst ein Textdokument mit dem Namen `final.txt`
+Diese drei Dateien müssen alle in einem Ordner sein, daher erstelle dir dafür erstmal einen Ordner und speicher dort die `AmongUsCapture-x64.exe` und die `AmongUsDiscord.exe` und erstell ein Textdokument mit dem Namen `final.txt`. Lade dir die letzte Version herunter:
 
-[Download AmongUsCapture.exe]()
+[Download AmongUsCapture.exe](https://github.com/denverquane/amonguscapture/releases)
 
-[Download AmongUsDicord.exe]()
+[Download AmongUsDicord.exe](https://github.com/denverquane/amongusdiscord/releases)
 
 ![image-20201006110143520](/images/amongus/image-20201006110143520.png)
 
@@ -148,7 +148,7 @@ Gib nun unbedingt den Code, in diesem Fall, "1724B0" in dein AmongUsCapture Prog
 
 ![image-20201006111601438](/images/amongus/image-20201006111601438.png)
 
-Nach Klick auf "Submit", sollte sich die Nachricht Nachricht vom Discord Bot folgendermaßen verändert haben:
+Nach Klick auf "Submit", sollte sich die Nachricht vom Discord Bot folgendermaßen verändert haben:
 
 ![image-20201006111654238](/images/amongus/image-20201006111654238.png)
 
